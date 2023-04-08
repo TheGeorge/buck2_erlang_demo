@@ -1,0 +1,6 @@
+erlang_otp_binaries(
+    name = "local",
+    erl = "local/erl",
+    erlc = "local/erlc",
+    escript = "local/escript",
+)

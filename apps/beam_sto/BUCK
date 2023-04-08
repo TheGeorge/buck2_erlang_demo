@@ -1,0 +1,6 @@
+erlang_application(
+    name = "beam_sto",
+    srcs = glob(["src/*.erl"]),
+    version = "0.1.0",
+    visibility = ["PUBLIC"],
+)
