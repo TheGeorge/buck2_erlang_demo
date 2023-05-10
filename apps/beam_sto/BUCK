@@ -4,3 +4,17 @@ erlang_application(
     version = "0.1.0",
     visibility = ["PUBLIC"],
 )
+
+erlang_tests(
+    suites = [
+        "test/fail_SUITE.erl",
+        "test/pass_SUITE.erl",
+    ],
+    deps = [":beam_sto"],
+    config_files = [":sys.ct.config"],
+)
+
+export_file(
+    name = "sys.ct.config",
+    src = "config/sys.ct.config"
+)
