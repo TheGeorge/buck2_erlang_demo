@@ -4,3 +4,6 @@
 [submodule "third-party/jsone"]
 	path = third-party/jsone
 	url = https://github.com/sile/jsone.git
+[submodule "third-party/meck"]
+	path = third-party/meck
+	url = https://github.com/eproxus/meck.git

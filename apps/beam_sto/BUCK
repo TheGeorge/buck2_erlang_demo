@@ -10,7 +10,7 @@ erlang_tests(
         "test/fail_SUITE.erl",
         "test/pass_SUITE.erl",
     ],
-    deps = [":beam_sto"],
+    deps = [":beam_sto", "//third-party:meck"],
     config_files = [":sys.ct.config"],
 )
 

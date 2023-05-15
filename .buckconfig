@@ -14,4 +14,4 @@ buck = none
 target_platform_detector_spec = target:root//...->prelude//platforms:default
 
 [buildfile]
-    buck2_default_visibility_to_public = true
+buck2_default_visibility_to_public = true
