@@ -22,5 +22,6 @@ erlang_application(
     shell_libs = [],
     erl_opts = ["+debug_info"],
     use_global_parse_transforms = False,
+    visibility = ["PUBLIC"],
     build_edoc_chunks = False,
 )

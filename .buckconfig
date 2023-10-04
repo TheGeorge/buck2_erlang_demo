@@ -15,3 +15,7 @@ target_platform_detector_spec = target:root//...->prelude//platforms:default
 
 [buildfile]
 buck2_default_visibility_to_public = true
+
+[erlang]
+build_edoc_chunks=False
+

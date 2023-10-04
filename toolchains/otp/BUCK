@@ -3,4 +3,5 @@ erlang_otp_binaries(
     erl = "local/erl",
     erlc = "local/erlc",
     escript = "local/escript",
+    visibility = ['PUBLIC']
 )
